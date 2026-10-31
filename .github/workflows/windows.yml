@@ -19,7 +19,12 @@ jobs:
       - run: python -m venv .venv
       - run: .venv/Scripts/python.exe -m pip install -r requirements-lock.txt
       - name: Ensure installer compiler
-        run: choco install innosetup --version=6.7.3 -y --no-progress
+        run: |
+          $installer = Join-Path $env:RUNNER_TEMP 'innosetup-6.7.3.exe'
+          Invoke-WebRequest 'https://github.com/jrsoftware/issrc/releases/download/is-6_7_3/innosetup-6.7.3.exe' -OutFile $installer
+          if ((Get-FileHash $installer -Algorithm SHA256).Hash -ne '9c73c3bae7ed48d44112a0f48e66742c00090bdb5bef71d9d3c056c66e97b732') { throw 'Installer compiler checksum mismatch' }
+          $process = Start-Process -FilePath $installer -ArgumentList '/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART','/SP-' -Wait -PassThru -WindowStyle Hidden
+          if ($process.ExitCode -ne 0) { throw 'Installer compiler setup failed' }
       - run: ./scripts/build.ps1
       - run: .venv/Scripts/python.exe scripts/source_archive.py
       - uses: actions/upload-artifact@v4
