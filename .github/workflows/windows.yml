@@ -1,0 +1,36 @@
+name: Windows build and verification
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.7'
+          architecture: x64
+      - run: python -m venv .venv
+      - run: .venv/Scripts/python.exe -m pip install -r requirements-lock.txt
+      - name: Ensure installer compiler
+        run: choco install innosetup --version=6.7.3 -y --no-progress
+      - run: ./scripts/build.ps1
+      - run: .venv/Scripts/python.exe scripts/source_archive.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-1.1.0-rc1
+          path: |
+            dist/release/*
+            docs/test-results.xml
+            build/packaged-smoke-rc1/result.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-evidence
+          path: docs/test-results.xml

@@ -1,0 +1,14 @@
+{
+    "reinstall_preserved_database":  true,
+    "restart_passed":  true,
+    "native_screenshot":  "docs/screenshots/installed.png",
+    "installed_smoke":  {
+                            "database_integrity":  true,
+                            "pdf_bytes":  22469,
+                            "backup_bytes":  2987
+                        },
+    "physical_printer_tested":  false,
+    "install_passed":  true,
+    "clean_machine_without_python_tested":  false,
+    "uninstall_preserved_external_data":  true
+}

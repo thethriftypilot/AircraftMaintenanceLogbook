@@ -1,0 +1,30 @@
+{
+  "reviewed": "2026-10-30",
+  "pilot_guidance": "Read 14 CFR 43.3(g), 43.7(f)/(h) and Appendix A(c). Ownership alone is insufficient. Certificate privileges, owned/operated aircraft, operating use, light-sport limitations and complexity matter. Ordinary pilot provisions exclude aircraft used under Parts 121, 129 or 135; specific exceptions need independent review. Never infer authorization from a selected role.",
+  "preventive_tasks": {
+    "Tires — Appendix A(c)(1)": "Reference category for landing gear tire work, subject to the Appendix A(c) limitations and actual aircraft configuration.",
+    "Wheel bearings — Appendix A(c)(4)": "Reference category for wheel-bearing servicing. Confirm the scope does not involve complex assembly operations.",
+    "Lubrication — Appendix A(c)(6)": "Review disassembly restrictions before treating lubrication as preventive maintenance.",
+    "Oil / strainers — Appendix A(c)(23)": "Review oil-strainer/filter-screen and oil-service scope against current text and manufacturer data; do not assume every filter replacement qualifies.",
+    "Spark plugs — Appendix A(c)(20)": "Review permissible plug servicing and replacement scope against the aircraft's instructions.",
+    "Batteries — Appendix A(c)(24)": "Battery servicing or replacement eligibility depends on actual work and applicable limitations.",
+    "Other / custom": "Identify the actual controlling Appendix A(c) item and applicable authorization. This menu is not an exhaustive legal eligibility determination."
+  },
+  "references": [
+    {"citation":"14 CFR 43.3", "url":"https://www.ecfr.gov/current/title-14/section-43.3", "supports":"Work authorization context"},
+    {"citation":"14 CFR 43.7", "url":"https://www.ecfr.gov/current/title-14/section-43.7", "supports":"Separate approval authorization"},
+    {"citation":"14 CFR 43.9", "url":"https://www.ecfr.gov/current/title-14/section-43.9", "supports":"General maintenance record fields"},
+    {"citation":"14 CFR 43.11", "url":"https://www.ecfr.gov/current/title-14/section-43.11", "supports":"Inspection extent, total time, outcome, statement and discrepancy list"},
+    {"citation":"14 CFR Part 43 Appendix A", "url":"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/appendix-Appendix%20A%20to%20Part%2043", "supports":"Preventive maintenance scope"},
+    {"citation":"14 CFR Part 43 Appendix B", "url":"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-C/part-43/appendix-Appendix%20B%20to%20Part%2043", "supports":"Separate major repair/alteration records and forms"},
+    {"citation":"14 CFR 91.207", "url":"https://www.ecfr.gov/current/title-14/section-91.207", "supports":"ELT applicability, inspection and battery limits"},
+    {"citation":"14 CFR 91.409", "url":"https://www.ecfr.gov/current/title-14/section-91.409", "supports":"Inspection program and calendar-month applicability"},
+    {"citation":"14 CFR 91.411", "url":"https://www.ecfr.gov/current/title-14/section-91.411", "supports":"Altimeter/static operating applicability"},
+    {"citation":"14 CFR 91.413", "url":"https://www.ecfr.gov/current/title-14/section-91.413", "supports":"Transponder tracking"},
+    {"citation":"14 CFR 91.417", "url":"https://www.ecfr.gov/current/title-14/section-91.417", "supports":"Retention, status and transfer records"},
+    {"citation":"14 CFR 65.95", "url":"https://www.ecfr.gov/current/title-14/section-65.95", "supports":"IA privileges and limitations"},
+    {"citation":"AC 43-9D", "url":"https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-9D.pdf", "supports":"Recordkeeping guidance; no software approval"},
+    {"citation":"AC 43-12A", "url":"https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-12A.pdf", "supports":"Preventive maintenance context; current regulations prevail over older guidance"},
+    {"citation":"AC 120-78B", "url":"https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-78B_FAA_Web.pdf", "supports":"Electronic systems require separate design analysis; v1 provides physical signature workflow only"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "legacy_schema": 1,
+  "upgraded_schema": 2,
+  "record_count": 6,
+  "attachment_count": 1,
+  "record_payloads_and_links_unchanged": true,
+  "attachment_hashes_unchanged": true,
+  "restore_rehearsal_passed": true,
+  "migration_archives": [
+    "O:\\CODEX PROJECTS\\Aircraft Logbook\\build\\upgrade-b1e5c33e-971f-4b72-9172-4d14fe23108c\\data\\backups\\pre-migration-v1-463dc148-69e8-47aa-85c7-98e03194daaf.zip"
+  ]
+}

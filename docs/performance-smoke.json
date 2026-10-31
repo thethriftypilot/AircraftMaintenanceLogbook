@@ -1,0 +1,7 @@
+{
+  "records": 5000,
+  "initial_window_and_list_seconds": 0.618,
+  "search_seconds": 0.102,
+  "matching_rows": 1,
+  "mode": "offscreen synthetic data; local Windows development hardware"
+}

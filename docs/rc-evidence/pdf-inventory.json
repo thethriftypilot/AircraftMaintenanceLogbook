@@ -1,0 +1,102 @@
+{
+  "approved-inspection.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "text_characters": 944
+  },
+  "compact-work.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        432.0,
+        384.0
+      ]
+    ],
+    "text_characters": 762
+  },
+  "discrepancy-list.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "text_characters": 855
+  },
+  "letter-work.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "text_characters": 762
+  },
+  "nonapproval.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "text_characters": 993
+  },
+  "sample-compact.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        432.0,
+        320.0
+      ]
+    ],
+    "text_characters": 679
+  },
+  "sample-full.pdf": {
+    "pages": 1,
+    "sizes_points": [
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "text_characters": 679
+  },
+  "sample-long.pdf": {
+    "pages": 6,
+    "sizes_points": [
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ],
+      [
+        612.0,
+        792.0
+      ]
+    ],
+    "text_characters": 14983
+  }
+}

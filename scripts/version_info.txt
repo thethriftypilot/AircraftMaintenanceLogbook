@@ -1,0 +1,10 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(filevers=(1,1,0,1),prodvers=(1,1,0,1),mask=0x3f,flags=0x0,OS=0x40004,fileType=0x1,subtype=0x0,date=(0,0)),
+  kids=[StringFileInfo([StringTable('040904B0',[
+    StringStruct('CompanyName','The Thrifty Pilot'),
+    StringStruct('FileDescription','The Thrifty Pilot | Aircraft Maintenance Logbook'),
+    StringStruct('FileVersion','1.1.0-rc1'),
+    StringStruct('InternalName','AircraftMaintenanceLogbook'),
+    StringStruct('OriginalFilename','AircraftMaintenanceLogbook.exe'),
+    StringStruct('ProductName','The Thrifty Pilot | Aircraft Maintenance Logbook'),
+    StringStruct('ProductVersion','1.1.0-rc1')])]),VarFileInfo([VarStruct('Translation',[1033,1200])])])

@@ -1,0 +1,28 @@
+{
+  "method": "Developer-driven real Qt widget/service rehearsal; not an independent novice or install-time test",
+  "scale_factor": "1.25",
+  "elapsed_seconds": 1.548,
+  "action_count": 16,
+  "actions": [
+    "Open + Aircraft",
+    "Enter registration",
+    "Enter make",
+    "Enter model",
+    "Enter serial_number",
+    "Click Save",
+    "Click Close",
+    "Open New Maintenance Entry",
+    "Enter category",
+    "Enter date",
+    "Enter performer",
+    "Enter description",
+    "Click Save Draft",
+    "Generate PDF through document service (dialog automation bypassed)",
+    "Open actual PDF preview",
+    "Reopen data and verify draft"
+  ],
+  "errors": 0,
+  "draft_survived_reopen": true,
+  "physical_printing": false,
+  "file_dialog_interactions_bypassed": true
+}

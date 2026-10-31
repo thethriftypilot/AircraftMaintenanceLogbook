@@ -1,0 +1,13 @@
+{
+  "installed_smoke": true,
+  "installed_old": true,
+  "physical_printer": false,
+  "restart": true,
+  "data_path": "O:\\CODEX PROJECTS\\Aircraft Logbook\\build\\upgrade-b1e5c33e-971f-4b72-9172-4d14fe23108c\\data",
+  "clean_vm_without_python": false,
+  "old_version": "1.0.0",
+  "new_version": "1.1.0-rc1",
+  "native_ui": true,
+  "upgraded_same_app_folder": true,
+  "uninstall_preserved_data": true
+}
