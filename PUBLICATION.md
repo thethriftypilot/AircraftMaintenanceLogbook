@@ -13,3 +13,5 @@ Pilot Tools includes a native download link and a new directory card with an act
 Publication does not complete the independent aviation, signing, printer, clean-machine or user acceptance gates listed in KNOWN_LIMITATIONS.md and COMPLETION_MATRIX.md.
 
 The initial GitHub workflow failed because Chocolatey did not provide the pinned Inno Setup version. The workflow now fetches that same version from the vendor's GitHub release and validates its published SHA-256 digest before installation. This affects CI setup only; published application binaries are unchanged.
+
+The corrected [Windows workflow run](https://github.com/thethriftypilot/AircraftMaintenanceLogbook/actions/runs/41161518263) completed successfully, including tests, executable/installer packaging, source archiving and artifact uploads.
